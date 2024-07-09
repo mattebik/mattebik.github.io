@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #f0ad4e;
+}
+
+.header-left h1, .header-center h1, .header-right img {
+    margin: 0;
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.header-right img {
+    height: 80px; 
+    width: auto; 
+}
+
+.side-nav {
+    width: 200px;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    float: left;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-nav ul li {
+    margin: 10px 0;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.postulaciones-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.postulaciones-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.postulaciones-form h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.postulaciones-form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+.postulaciones-form input[type="text"],
+.postulaciones-form input[type="date"],
+.postulaciones-form input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.postulaciones-form div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.postulaciones-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0ad4e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.postulaciones-form button:hover {
+    background-color: #ec971f;
+}
+
+footer {
+    border-top: 2px solid #f0ad4e;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li {
+    margin: 0 15px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+}
